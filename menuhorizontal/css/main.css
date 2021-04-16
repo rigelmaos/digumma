@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    /*outline: 1px solid plum;*/
+    background-color: black;
+}
+
+ul {
+     /*outline: 1px solid purple;*/
+     list-style: none;
+     padding: 0%;
+     margin: 0%;
+}
+
+li {
+    /* outline: 1px solid palevioletred;*/
+     width: 100px;
+     display: inline-block;
+     line-height: 30px;
+     text-align:center;
+}
+
+img{
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+div {
+    align-content: center;
+    align-self: center;
+    margin: auto;
+}
+
+a {
+    /* outline: 1px solid rebeccapurple;*/
+     text-decoration: none;
+     display: block;
+     color: white;
+}
+
+a:hover {
+background-color: rgb(233, 138, 204);
+color: black
+}

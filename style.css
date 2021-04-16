@@ -1,0 +1,29 @@
+.encabezado {
+    color: blueviolet;
+    text-decoration: underline;
+}
+h1 {
+    color:gray;
+    text-decoration: underline;
+}
+
+#identificador {
+    color:hotpink;
+    font-size: 200%;
+}
+
+.sección1 {
+    background-color: rgb(160, 83, 109);
+    color:lightpink;
+    text-decoration: underline;
+    text-align: center
+}
+
+.sección2 {
+    background-color: lightpink;
+    color:mediumpurple;
+    text-decoration: underline;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}

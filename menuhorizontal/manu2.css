@@ -1,0 +1,38 @@
+Body {
+    font-family: Impact
+}
+
+nav {
+    /*outline: 1px solid plum;*/
+    background-color: rgb(230, 13, 121);
+    position: sticky;
+    top: 0
+}
+
+ul {
+     /*outline: 1px solid purple;*/
+     list-style: none;
+     padding: 0%;
+     margin: 0%;
+}
+
+li {
+    /* outline: 1px solid palevioletred;*/
+     width: 100px;
+     display: inline-block;
+     line-height: 30px;
+     text-align:center;
+}
+
+a {
+    /* outline: 1px solid rebeccapurple;*/
+     text-decoration: none;
+     display: block;
+     color: white;
+}
+
+a:hover {
+background-color: rgb(252, 227, 0);
+color: rgb(21, 197, 168) 
+}
+
