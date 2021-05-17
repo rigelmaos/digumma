@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.portada{
+    background-image: url(https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2021/03/Sailor-Moon_-Artista-se-imagina-una-graciosa-situacion-entre-las-Sailor-Scouts-y-lo-plasma-en-este-fan-art-1.jpg?fit=1280%2C720&quality=80&ssl=1);
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+}
+
+.button {
+    text-decoration: none;
+    color:rgb(247, 120, 183);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    margin:auto auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    transition: 2s;
+    display: inline-block;
+}
+
+.button:active {
+    transition: 1s;
+    transform: scale(.8);
+}
+
+.button:hover {
+    background: white;
+}
+
+@media screen and (max-width:400px) {
+    .portada{
+        background-size: contain;
+    }  
+}
+@media screen and (max-width:1150px) {
+    .portada{
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .portada{
+        background-size: auto;
+    }  
+}
+
+@media screen and (max-width:400px) {
+    .portada{
+        background-size: contain;
+    }  
+}
+
+@media screen and (max-width:300px){
+     .portada {
+        margin: 10px;
+        background-size: contain;
+        height: 10px;
+        min-height: 50vh;
+     }
+}
+

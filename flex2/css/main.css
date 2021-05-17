@@ -1,0 +1,82 @@
+.portada{
+    background-image: url(https://i.pinimg.com/originals/f8/f6/5d/f8f65d28d536996c9e8ba6c5f986c60d.jpg);
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+}
+
+.button {
+    text-decoration: none;
+    color:rgb(247, 120, 183);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    margin:auto auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    transition: 2s;
+    display: inline-block;
+}
+
+.button:active {
+    transition: 1s;
+    transform: scale(.8);
+}
+
+.button:hover {
+    background: white;
+}
+
+@media screen and (max-width: 1680px) {
+    .portada{
+        background-size: cover;
+    }  
+}
+@media screen and (max-width:1150px) {
+    .portada{
+        width: 100%;
+        background-repeat: cover;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portada{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .portada{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .portada{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width: 576px) {
+    .portada{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width:480px) {
+    .portada{
+        background-size: cover;
+    }  
+}
+
+@media screen and (max-width:300px){
+     .portada {
+        margin: 10px;
+        background-size: cover;
+        height: 10px;
+        min-height: 50vh;
+     }
+}
+
